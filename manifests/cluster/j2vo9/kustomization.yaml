@@ -1,0 +1,8 @@
+bases:
+- ../../argocd
+patches:
+- target:
+    kind: Ingress
+    name: argocd-server-ingress
+  path: ingress-patch.json
+

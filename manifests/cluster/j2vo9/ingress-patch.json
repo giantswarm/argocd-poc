@@ -1,0 +1,12 @@
+[
+  { 
+      "op": "replace", 
+      "path": "/spec/rules/0/host", 
+      "value": "argocd.j2vo9.k8s.flamingo.eu-west-1.aws.gigantic.io"
+  },
+  { 
+    "op": "replace", 
+    "path": "/spec/tls/0/hosts/0", 
+    "value": "argocd.j2vo9.k8s.flamingo.eu-west-1.aws.gigantic.io"
+  }
+]
